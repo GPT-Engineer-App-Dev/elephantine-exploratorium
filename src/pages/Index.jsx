@@ -20,7 +20,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Elephants: Gentle Giants</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Elephants and Space: A Unique Blend</h1>
         
         <img 
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/1280px-African_Bush_Elephant.jpg" 
@@ -29,7 +29,7 @@ const Index = () => {
         />
         
         <p className="text-lg text-gray-700 mb-6">
-          Elephants are the largest land mammals on Earth and have captivated humans for thousands of years. These intelligent and social animals are known for their distinctive trunks, tusks, and remarkable memory.
+          While elephants roam the Earth, let's also explore the vastness of space. This unique page combines facts about these gentle giants and the cosmos.
         </p>
         
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Interesting Elephant Facts</h2>
@@ -55,7 +55,7 @@ const Index = () => {
           Note: This chart shows the estimated global elephant population trend over the years.
         </p>
 
-        <h2 className="text-2xl font-semibold text-gray-900 my-6">More Interesting Facts</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 my-6">Interesting Space Facts</h2>
         <InterestingFacts />
       </div>
     </div>
