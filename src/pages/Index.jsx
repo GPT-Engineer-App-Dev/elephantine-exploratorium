@@ -1,5 +1,6 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import InterestingFacts from '../components/InterestingFacts';
 
 const elephantPopulationData = [
   { year: 1980, population: 1300000 },
@@ -53,6 +54,9 @@ const Index = () => {
         <p className="text-sm text-gray-500 mt-4">
           Note: This chart shows the estimated global elephant population trend over the years.
         </p>
+
+        <h2 className="text-2xl font-semibold text-gray-900 my-6">More Interesting Facts</h2>
+        <InterestingFacts />
       </div>
     </div>
   );
